@@ -1,0 +1,51 @@
+:root{
+    --borda : 2px solid black;
+}
+header{
+    text-align: center;
+}
+figcaption{
+    display: none;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#tabuleiro{
+    width:80vw;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+#gameBox{    
+    box-sizing: border-box;
+    width: 100%;
+    border: var(--borda);
+}
+#botao{
+    margin: 5px calc(50% - 33px);
+}
+.box{
+    margin: 10px;
+    /* width: 50%; */
+    border: var(--borda);
+}
+.resultBox{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    border: var(--borda);
+    height: 75px;
+}
+img{
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    border: var(--borda);
+}
+footer{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+    border: var(--borda);
+}
